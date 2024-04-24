@@ -57,8 +57,16 @@ Para executar o aplicativo, certifique-se de ter o Flutter instalado em seu sist
 
 ### Clone o repositório para sua máquina local.
 Navegue até o diretório do projeto em seu terminal.
-Execute flutter pub get para buscar as dependências necessárias.
-Execute flutter run para construir e executar o aplicativo em seu emulador ou dispositivo.
+Execute 
+```
+flutter pub get
+```
+para buscar as dependências necessárias.
+Execute 
+```
+flutter run
+```
+para construir e executar o aplicativo em seu emulador ou dispositivo.
 
 ### Conclusão
 O Music App exemplifica o uso da Arquitetura Limpa e BLoC para uma aplicação Flutter sustentável e testável. Ele fornece uma base sólida para construir aplicativos complexos, mantendo uma separação clara entre a interface do usuário e a lógica de negócios.
