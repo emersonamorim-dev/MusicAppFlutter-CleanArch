@@ -10,8 +10,13 @@ buildscript {
     dependencies {
         classpath 'com.android.tools.build:gradle:4.1.0' 
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
-
     }
+}
+
+plugins {
+    id "com.android.application"
+    id "kotlin-android"
+    id "dev.flutter.flutter-gradle-plugin"
 }
 
 allprojects {
@@ -23,12 +28,6 @@ allprojects {
 
 task clean(type: Delete) {
     delete rootProject.buildDir
-}
-
-plugins {
-    id "com.android.application"
-    id "kotlin-android"
-    id "dev.flutter.flutter-gradle-plugin"
 }
 
 def localProperties = new Properties()
