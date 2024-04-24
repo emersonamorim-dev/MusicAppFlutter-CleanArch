@@ -1,6 +1,6 @@
 ### Music App Flutter - Arquitetura Limpa com BLoC 🚀 🔄 🌐
 
-Codificação de Aplicação em Flutter com Dart para Music App é uma aplicação Flutter robusta e escalável que adere aos princípios da Arquitetura Limpa (Clean Architecture). Utilizando o padrão BLoC (Business Logic Component), o aplicativo garante que a lógica de negócios seja separada da camada de apresentação, resultando em uma base de código altamente sustentável e testável.
+Codificação de Aplicação em Flutter com Dart para Music App é uma aplicação Flutter robusta e escalável que adere aos princípios da Arquitetura Limpa (Clean Architecture). Utilizando o padrão BLoC (Business Logic Component) para gerenciamento de estado, o aplicativo garante que a lógica de negócios seja separada da camada de apresentação, resultando em uma base de código altamente sustentável e testável.
 
 ### Tecnologias Utilizadas 🛠️
 ![Flutter](https://img.shields.io/badge/-Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
